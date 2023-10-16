@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:url("https://image.lexica.art/full_jpg/ea95a7ab-7f81-4a5c-8c4e-e1a206c6aadf/") ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.opacity-50{
+  width: 100%;
+  height: 100%;
+}
+li{
+  transition: 0.4s ;
+}
+li:hover {
+  transform : scale(1.07);
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan, 0 0 50px cyan,
+  0 0 100px cyan, 0 0 200px cyan;
+}
+.css-pf3t4f-MuiTypography-root{
+  
+  border-radius : 10px;
+  padding: 30px ;
+  margin: auto;
+  transition: 1s ;
+
+}
+.css-pf3t4f-MuiTypography-root:hover{
+  box-shadow: 0 0 5px rgb(188, 150, 13),
+  0 0 25px cyan, 0 0 50px rgb(190, 185, 14),
+  0 0 100px rgb(238, 211, 39), 0 0 200px rgb(113, 206, 20);
+}
+
+.MuiInputBase-input span{
+  color: whitesmoke;
 }

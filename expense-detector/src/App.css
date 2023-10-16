@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  
+  height: 0vh;
 }
 
 .App-logo {
@@ -13,6 +15,11 @@
   }
 }
 
+.form{
+  color: rgb(39, 16, 16);
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,7 +28,16 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(14, 14, 14);
+}
+
+.glass{
+  background: linear-gradient(135deg, rgba(255, 255,255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0 , 0, 0.3);
 }
 
 .App-link {
