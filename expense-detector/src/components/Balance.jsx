@@ -1,6 +1,6 @@
 
 
-import { Box,Typography, styled } from '@mui/material'
+import { Box,Typography, styled , Divider } from '@mui/material'
 
 const BalanceText = styled(Typography)`
     font-size: 25px;

@@ -18,7 +18,6 @@ const Expensecard = ({ transactions }) => {
 
 
 
-
     return (
         <Container>
             <Card>

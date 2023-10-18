@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
 import { useState } from 'react';
 import { Typography, styled, Box,} from '@mui/material';
 
@@ -11,7 +13,6 @@ import backgroundImage from './photo/back.jpg';
 import NewTransactions from './components/NewTransactions';
 import Transactions from './components/Transactions';
 
-
 const stylee={
   backgroundImage: `url(${backgroundImage})`,
   backgroundSize: 'cover',
@@ -19,30 +20,24 @@ const stylee={
 }
 
 const Header = styled(Typography)`
-<button> Expense Tracker </button>
 
-button {
-  box-shadow:0 0 5px cyan,
-  0 0 25px cyan;
-}
-button:hover {
-  box-shadow: 0 0 5px cyan,
-  0 0 25px cyan, 0 0 50px cyan,
-  0 0 100px cyan, 0 0 200px cyan;
-}
+
+
 display:flex;
-padding: 20px;
+padding: 5px;
 justify-content: center;
 align-items: center;
-  font-size: 36px; 
-  color: red;
+  font-size: 50px; 
+  color: #DD1842;
+  font-family: 'Lobster Two', sans-serif;
+  text decoration: underline;
   text-transform: uppercase;
 `
 
 const Component = styled(Box)`
    display: flex;
     background: linear-gradient(135deg, rgba(255, 255,255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);  
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     
@@ -64,7 +59,7 @@ const Component = styled(Box)`
       justify-content : center ;
       align-items : center ;
       width : 80%
-      height  : 80%;
+      height  : 100%;
    }
 `
 
@@ -83,7 +78,7 @@ function App() {
 
   return (
     <div class ="opacity-50" >
-      <Header>EXPENSE Tracker</Header>
+      <Header>SPEND SENSE</Header>
     <Box className="App">
      <Component>
       <Box>
